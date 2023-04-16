@@ -105,3 +105,8 @@ D:\QLNS\QuanLyNhanSuLT_.Net-\QLNS\GUI\bin\Debug\CrystalDecisions.ReportAppServer
 D:\QLNS\QuanLyNhanSuLT_.Net-\QLNS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 D:\QLNS\QuanLyNhanSuLT_.Net-\QLNS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 D:\QLNS\QuanLyNhanSuLT_.Net-\QLNS\GUI\bin\Debug\stdole.dll
+D:\Workspace\C#\BTL_NET(QLNS)\QLNS\GUI\obj\Debug\GUI.FormQuanLyNhanVien.resources
+D:\Workspace\C#\BTL_NET(QLNS)\QLNS\GUI\obj\Debug\GUI.FormQuanLyPhongBan.resources
+D:\Workspace\C#\BTL_NET(QLNS)\QLNS\GUI\obj\Debug\GUI.FormQuenMatKhau.resources
+D:\Workspace\C#\BTL_NET(QLNS)\QLNS\GUI\obj\Debug\GUI.FormTrang_Chu.resources
+D:\Workspace\C#\BTL_NET(QLNS)\QLNS\GUI\obj\Debug\GUI.Form_Dang_Nhap.resources

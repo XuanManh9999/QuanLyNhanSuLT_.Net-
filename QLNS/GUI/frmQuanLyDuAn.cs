@@ -29,6 +29,7 @@ namespace GUI
         {
             cbBox_TimKiem.Text = cbBox_TimKiem.Items[0].ToString();
             panel_TimKiem.Hide();
+            Load_dtGridQLDA(BUS_QLDA.HienThiDuLieu());
         }
 
         // Hàm load datagridview
@@ -208,21 +209,6 @@ namespace GUI
             panel_TimKiem.Hide();
             i = 0;
         }
-        // Hiển thị
-        private void btnHienThi_Click(object sender, EventArgs e)
-        {
-            Load_dtGridQLDA(BUS_QLDA.HienThiDuLieu());
-        }
-
-        private void dtGridQLDA_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
@@ -231,7 +217,7 @@ namespace GUI
             trangChu.ShowDialog();
         }
 
-        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        private void hienthi_Click(object sender, EventArgs e)
         {
             Load_dtGridQLDA(BUS_QLDA.HienThiDuLieu());
         }

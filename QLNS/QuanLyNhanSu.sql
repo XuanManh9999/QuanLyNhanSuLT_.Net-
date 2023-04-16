@@ -55,6 +55,7 @@ CREATE TABLE TaiKhoanDangNhap (
 	MatKhau NVARCHAR(50),
 	MaQL VARCHAR(15) FOREIGN KEY REFERENCES QuanLy(MaQL)
 )
+)
 --Cái này phải chạy, để lấy tài khoản đăng nhập.
 insert into TaiKhoanDangNhap values ('admin', '123', 'QL001')
 select * from QuanLy
