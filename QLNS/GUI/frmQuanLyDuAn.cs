@@ -230,5 +230,10 @@ namespace GUI
             this.Hide();
             trangChu.ShowDialog();
         }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            Load_dtGridQLDA(BUS_QLDA.HienThiDuLieu());
+        }
     }
 }

@@ -35,6 +35,7 @@
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtMaPB = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -57,16 +58,16 @@
             this.btnThoat_TimKiem = new System.Windows.Forms.PictureBox();
             this.cbBox_TimKiem = new Guna.UI2.WinForms.Guna2ComboBox();
             this.dtGridQLDA = new System.Windows.Forms.DataGridView();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Panel1.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.panel_TimKiem.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnThoat_TimKiem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridQLDA)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -151,8 +152,21 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1067, 93);
             this.guna2GradientPanel1.TabIndex = 1;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 3);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(80, 90);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 23;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
+            // 
             // guna2Panel2
             // 
+            this.guna2Panel2.Controls.Add(this.guna2GradientButton1);
             this.guna2Panel2.Controls.Add(this.txtMaPB);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel6);
             this.guna2Panel2.Controls.Add(this.txtMoTaDA);
@@ -547,17 +561,31 @@
             this.dtGridQLDA.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridQLDA_CellClick);
             this.dtGridQLDA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridQLDA_CellContentClick);
             // 
-            // guna2PictureBox1
+            // guna2GradientButton1
             // 
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 3);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(80, 90);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 23;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
+            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.BorderRadius = 12;
+            this.guna2GradientButton1.BorderThickness = 1;
+            this.guna2GradientButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.White;
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
+            this.guna2GradientButton1.HoverState.BorderColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(70)))));
+            this.guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(181)))), ((int)(((byte)(224)))));
+            this.guna2GradientButton1.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.Location = new System.Drawing.Point(200, 349);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.Size = new System.Drawing.Size(144, 55);
+            this.guna2GradientButton1.TabIndex = 4;
+            this.guna2GradientButton1.Text = "Hiển Thị";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // frmQuanLyDuAn
             // 
@@ -579,6 +607,7 @@
             this.guna2Panel1.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
@@ -586,7 +615,6 @@
             this.panel_TimKiem.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnThoat_TimKiem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridQLDA)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -623,5 +651,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtTimKiem;
         private Guna.UI2.WinForms.Guna2GradientButton btnHienThi;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
     }
 }
